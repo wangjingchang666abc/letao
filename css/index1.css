@@ -1,0 +1,138 @@
+/*顶部导航*/
+
+html,body {
+    background-color: #f7f7f7;
+}
+.lt {
+    width: 100%;
+    /*margin: 0 auto;*/
+}
+.nav {
+    width: 100%;
+}
+.nav .nav_txt {
+    width: 100%;
+    height: 40px;
+    background-color: #00008B;
+}
+.nav .nav_txt h2 {
+    position: relative;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+.nav .nav_txt i {
+    position: absolute;
+    color: #fff;
+    background-position: -46px 0px;
+    background-image: url("../images/jd-sprites.png");
+}
+
+/*轮播图*/
+.carousel {
+    /*position: relative;*/
+    width: 100%;
+}
+.carousel img {
+    /*position: absolute;*/
+    /*display: block;*/
+    width: 100%;
+    vertical-align: middle;
+}
+
+/*产品*/
+
+.product {
+    width: 100%;
+}
+.product ul {
+    width: 100%;
+    margin: 15px;
+}
+.product li img {
+    float: left;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
+/*鞋子*/
+.product_shoe {
+    /*position: relative;*/
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.product_shoe .shoe_l img {
+    /*position: absolute;*/
+    float: left;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.product_shoe .shoe_r img {
+    float: right;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.product_shoe .shoe_x img {
+    /*position: absolute;*/
+    float: left;
+    width: 33%;
+}
+
+/*品牌专区*/
+
+.brand {
+    width: 100%;
+}
+.brand img{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.brand_xin {
+    width: 100%;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+.brand_xin ul {
+    width: 100%;
+    overflow: hidden;
+}
+.brand_xin li {
+    width: 25%;
+    float: left;
+}
+
+.brand_xin a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.brand_xin img {
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+}
+
+/*运动专区*/
+.play {
+    width: 100%;
+}
+.play img {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
